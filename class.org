@@ -205,3 +205,72 @@
       целую профессию
   - цикличная безработица
     - возникает во время спада, когда спрос в экономике недостаточен
+** Тест 2
+- National income is defined as
+  - the total income earned by a nation's residents from the
+    production of goods and services within the borders of the
+    country
+- A country reported nominal GDP of $200 billion in 2012 and $180
+  billion in 2011 and reported a GDP deflator of 125 in 2012 and 105
+  in 2011. What happened to real output and prices from 2011 to 2012?
+  - 2012: $200B/125 = $1.6B
+  - 2011: $180B/105 = $1.71B, so real output fell
+  - (prices in 2012)/(prices in 2011) = 125/105 > 1, so prices rose
+- In 2007, Freedonia had a population of 2,700 and real GDP of about
+  1,080,000. In 2006 it had a population of 2,500 and real GDP of
+  about 1,000,000. What was the approximate growth rate of real GDP
+  per person in Freedonia between 2006 and 2007?
+  - (1080/27)/(1000/25) = 40/40 = 1, so 0% growth
+- Ethel purchased a bag of groceries in 1970 for $8. She purchased the
+  same bag of groceries in 2006 for $25. If the price index was 38.8
+  and is 180 in 2006, what's the price of a 1970 bag of groceries in
+  2006 prices?
+  - $8×180/38.8 = 37.11
+- If a country reported a nominal GDP of 85 billion in 2007 and 100
+  billion in 2006 and reported a GDP deflator of 100 in 2007 and of
+  105 in 2006, then from 2006 to 2007 real output
+  - output fell from 2006 to 2007:
+    - 2007: $85B/100 = $.85B
+    - 2006: $100B/105 = $.95B
+  - prices: 100/105 < 1, so prices fell
+- By itself a reduction in the price of large tractors imported into
+  Canada from Russia will
+  - will not change either the GDP deflator or the consumer price
+    index
+- The price index in the first year is 125, in the second year is 150,
+  and in the third year is 200. What is the inflation rate between the
+  first and second year and between the second and third year?
+  - 150/125 = 1.2, 200/150 = 1.3(3)
+- Рассмотрим открытую экономику страны A, в которой потребление
+  составляет 2/3 от валового внутреннего продукта. Кроме того,
+  известно, что инвестиции составляют 1/9 от валового внутреннего
+  продукта, а государственные закупки меньше инвестиций на 10 млрд
+  долларов. Наконец, также известно, что экспорт превышает импорт на
+  25 млрд долларов. На основании приведенных данных рассчитайте объем
+  валового внутреннего продукта страны A в млрд долларов.
+  - Y = C + G + I + NX = 2Y/3 + (Y/9 - 10) + Y/9 + 25
+  - Y/9 = 15
+  - Y = 135
+- В 2010 году экономически активное население страны A составляло 100
+  млн человек, из которых 95 млн имели работу. В течение следующих
+  четырех лет состав экономически активного населения покинули 2 млн
+  занятых и 1 млн безработных, но, с другой стороны, за этот же период
+  состав экономически активного населения пополнили 9.3 млн человек,
+  которые получили работу, и 3.7 млн безработных. Определите, на
+  сколько процентных пунктов уровень безработицы в 2014 году больше
+  аналогичного показателя в 2010 году
+  - 2010: (100-95)/100 = 5%
+  - 2014: (5 - 1 + 3.7)/(100 - 2 - 1 + 9.3 + 3.7) = 7.7/110 = 7%
+  - разница: 7% - 5% = 2%
+
+- Предположим, что совокупный выпуск страны состоит из двух видов
+  товаров. На основе приведенной таблицы рассчитайте реальный ВВП (в
+  млрд рублей) в 2013 году, считая 2012 год базисным.
+  |------------------+----------------+----------------+----------------+----------------|
+  |                  | 2012 - товар 1 | 2012 - товар 2 | 2013 - товар 1 | 2013 - товар 2 |
+  |------------------+----------------+----------------+----------------+----------------|
+  | цена, руб        |             10 |             15 |             12 |             20 |
+  | выпуск, млрд. шт |            2.5 |              2 |              3 |              2 |
+
+  - Реальный ВВП в 2013 - это ВВП в ценах 2012 (базисного) года
+     =  ₽10 * 3 млрд + ₽15 * 2 млрд = ₽60 млрд
