@@ -469,3 +469,14 @@
       - имеет смысл учиться у других
       - покупать лицензии, обучение, прямые иностранные инвестиции
     - промышленный шпионаж, пиратское ПО
+** Тест 4
+- Inward-oriented policies
+  - in some ways are like prohibiting the use of certain technologies
+- If a country's saving rate increases, in the long run
+  - neither productivity growth nor income growth increase
+- Suppose that there are diminishing returns to capital. Suppose also
+  that two countries are the same except one has less capital and so
+  less real GDP per person than the other. Finally, suppose that the
+  saving rate in both countries increases from 5 percent to 6
+  percent. Over the next ten years we would expect that
+  - the country with less capital will grow faster
