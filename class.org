@@ -1224,3 +1224,288 @@
       - одновременно ввели "валютный коридор"
       - в 1997м инфляция фиксируется на 11%
       - но дефициты остались
+* ECON 102 essays
+:LOGBOOK:
+- Note taken on [2018-02-16 Fri 23:57] \\
+  List of Topics for Cost Free Assignments (ECON 102)
+  1. Many people believe that significant numbers of jobs in Canada
+     have been outsourced to foreign countries. Describe how you would
+     analyze the problem. (Hint: Has the amount of outsourcing by
+     Canadian companies been significant relative to the size of our
+     labour market/ what problems might you expect to encounter in
+     carrying out your analysis?)
+  2. In class, we have been saying for years before the base year,
+     real GDP is greater than nominal GDP; and for years after the
+     base year, nominal GDP is greater than real GDP. Suppose an
+     economy experiences deflation, explain how will the relationship
+     between nominal GDP and real GDP for years before and after the
+     base year still hold or change.
+  3. As of mid-2014, major banks in the US and Europe have been
+     holding large amount of reserves. Use the money multiplier to
+     explain how a reduction in reserves could lead to an increase in
+     the money supply.
+  4. Assume you are an owner of a Canadian firm in which your business
+     mainly involves exporting and importing goods. Explain why you
+     might prefer an exchange rate system like Bretton Woods (fixed
+     system) rather than the current system (flexible system).
+  5. Explain whether or how likely an economy will experience crowding
+     out if the government runs a budget deficit. (Hint: “Austerity is
+     pain. So is tight money,” Economists January 19, 2012)
+  6. Using the concept of government spending multiplier, explain how
+     the Japanese earthquake and tsunami of March 2011 may affect the
+     Japanese economy as a whole. (Hint: “Japan says quake rebuilding
+     to cost as much as 25tn yen,” BBC News, March 23, 2011)
+  7. The text talks about the natural rate of unemployment is between
+     6-7%. However, some evidence suggests the natural rate of
+     unemployment may have increased after the recession of
+     2008-2009. If the Bank of Canada believed that the natural rate
+     was lower than it actually is, explain what would be the
+     consequences for the Canadian economy.
+  8. The IMF makes loans only to countries that are temporary running
+     out of reserves of foreign currency. Explain how would such a
+     loan helps a country to maintain a fixed exchange rate
+     system. (Hint: why would a country have this temporary problem in
+     the first place/ what must happen to the exchange rate if these
+     problems persist rather than being temporary)
+:END:
+** Inflation is Caused by Too Many People Working
+#+LaTeX_CLASS: article
+#+LaTeX_CLASS_OPTIONS: [article,letterpaper,times,11pt,margin=0.7in]
+#+LATEX_HEADER: \usepackage[margin=0.3in]{geometry}
+- The text talks about the natural rate of unemployment is between
+  6-7%. However, some evidence suggests the natural rate of
+  unemployment may have increased after the recession of 2008-2009. If
+  the Bank of Canada believed that the natural rate was lower than it
+  actually is, explain what would be the consequences for the Canadian
+  economy.
+
+The mandate of the Bank of Canada is to ``regulate credit and currency
+in the best interests of the economic life of the nation, to control
+and protect the external value of the national monetary unit and to
+mitigate by its influence fluctuations in the general level of
+production, trade, prices and employment, so far as may be possible
+within the scope of monetary action, and generally to promote the
+economic and financial welfare of Canada"[fn::Bank of Canada Act
+(R.S.C., 1985, c. B-2)]. In other words, the Bank of Canada is tasked
+with determining and conducting fiscal policy with the purpose of maintaining
+- the domestic economic output,
+- employment,
+- price level (i.e., containing inflation), and
+- exchange rate with foreign currencies
+
+Here, we shall focus on the first three objectives, in particular how,
+according to the current theory, employment depends on the difference
+between current and potential economic output, and the trade-off in
+the short term between inflation and unemployment.
+
+Let's start from afar: recall that the long-run aggregate supply or
+potential GDP typically deviates from the actual output (or short-run
+GDP); if we accept that the production is determined by the available
+labour and capital (factories, roads, available computing power, cars,
+etc) and write $Y=A\times F(L,K)$, where $K$ is the amount of capital,
+$L$ the amount of labour, and $A$ the technological efficiency
+parameter. Since $F$ is taken to be concave in $K$ --- diminishing
+marginal returns on capital --- while depreciation rate $\delta$ is
+constant, so that an amount $\delta K$ of capital is removed per unit
+time, the Solow's model predicts that in the long run, the GDP per
+capita will reach an equilibrium point, which is determined by the
+ratio $\frac{\delta}{s}$ between the depreciation rate and investment
+rate $s$. We'll need to keep in mind two features of the Solow's
+model: first, in the developed countries, where the current GDP is
+close to its potential value, we expect to see smaller GDP growth: the
+model only gives us the option to increase $A$ through technological
+advances and population growth. The developing countries, which are
+still accumulating capital faster than it depreciates, should grow
+faster. In both cases, the long-run aggregate supply to be perfectly
+price-inelastic: the economy's potential output is independent of the
+price level[fn::The fact that Solow's model exhibits monetary
+neutrality isn't a revelation, it's a sanity check].
+
+The short-run aggregate supply, on the other hand, is very
+price-elastic: once the industial capacity is there, it can be
+used. Labour, too, is often billed by the hour, and firms can reduce
+the hours of their workers, or entice them to work overtime. A crucial
+element in our model will be the dependence between the output, price
+level, and the *expected* price level[fn::I am following closely
+Chapter 13 of Mankiw, "Macroeconomics" 7th edition]. In the
+`sticky-price' model, we suppose that not all firms can change prices
+on the spot. If a firm can change its prices at will, let's express
+its price policy $p$ as $p = P + a(Y-\bar{Y})$: the desired price
+depends on the general price level and the level of aggregate
+production. The firms with sticky prices will have to make a guess
+about the expected price level $EP$ and set these prices now: for
+them, $p=EP$. If the proportion of the firms with sticky prices is
+$s$, then the overall price level will be the weighed average:
+$P=s\timesEP + (1-s)\times(P+a(Y-\bar{Y}))$. Rearranging, we obtain
+the SRAS equation with finite price elasticity:
+$$Y-\bar{Y}=\alpha(P-EP)$$ where $\alpha=\frac{as}{1-s}>0$.
+
+An alternative approach is imperfect-information model: even if
+``markets clear" and the prices can adjust instantly depending on the
+current level of output, the production decision a firm faces is based
+on the expected relative price of the good compared to the prices of
+all the other goods. The conclusion remains the same: the price level
+depends on the _expected_ price level and the level of production
+compared to its `natural' level.
+
+We notice that we can temporarily boost production if the price level
+turns out to be higher than expected. Of course, this cannot last
+forever: the expectations about the prices will adjust, and the output
+will return to its long-term value, at higher prices.
+
+To return to the relationship between GDP and unemployment, it should
+not be surprising to observe the empirical dependence between the
+change in real GDP and unemployment rate[fn::Arthur M. Okun,
+"Economics for Policymaking"]: employed workers contribute to
+production of goods and services while unemployed ones do not. The
+observation can be expressed as $\frac{Y-\bar{Y}}{\bar{Y}} = c
+(u-\bar{u})$, with the constant $c$ measured to be about 2.
+
+We now have all the ingridients to derive the equation for the
+Philipps curve[fn::slight abuse of the language: strictly speaking,
+there's no single Philipps curve] linking unemployment and inflation.
+Rewrite the SRAS equation as $P=EP+\frac{Y-\bar{Y}}{\alpha}+v$, where
+$v$ is exogenous supply shock such as a sudden change in commodity
+prices. Inflation $\pi$ is just the difference in prices from the
+previous period: $\pi=E-E_{-1}$, and similarly for the expected
+inflation $E\pi$: $\pi=E\pi+\frac{Y-\bar{Y}}{\alpha}+v$. Finally,
+substitute Okun's law to obtain $$\pi-E\pi=-\beta(u-\bar{u}) + v$$
+
+We have derived that the inflation in the current period depends on
+the the inflation in the past[fn::we're proxying the expected
+inflation by the inflation in the past period], the cyclical
+unemployment $(u-\bar{u})$, and a supply shock. For this reason, the
+value $\bar{u}$ is named NAIRU, non-accelerating inflation rate of
+unemployment. The crucial piece we had to rely on is price
+`stickyness', which follows from at least two plausible models of firm
+behaviour, and is supported by emprical evidence[fn::Alvarez et al,
+"Sticky Prices in the Euro Area - a summary of new micro evidence" ECB
+Working Paper Series no. 563 / December 2005]. It may therefore be
+suprising that as late as mid-1990's, the NAIRU theory was not
+universally accepted among the Governors of the US Federal
+Reserve[fn::Laurence Meyer, "A Term at the Fed"], or indeed at the
+Wall Street Journal, from which the title for this essay was
+taken[fn::WSJ May 20, 1997, "The Meyer Fed? - WSJ"]. There are
+plausible explanations for the existence of a non-zero NAIRU, such as
+frictional and structural unemployment.
+
+The NAIRU theory has enormous implications for the central banks:
+first, it shows that the regulators can influence unemployment rate,
+and could minimize it *if only they knew what value NAIRU actually is*
+at any given time. The cost of using monetary policy to drive
+unemployment lower than its `natural' rate is a higher rate of
+inflation, which will propagate itself as *higher expectations of
+inflation in the future*. This inflation ratcheting is referred to as
+demand-pull inflation since it is driven by high aggregate demand,
+which translates into higher wages, which in turn translate into
+higher prices for goods and services. Unfortunately, the flip side is
+that to reduce inflation, we either have to pray for a positive supply
+shock[fn::so-called opportunistic disinflation], or be content to
+lower GDP and thus raise unemployment rate in the future. The data
+suggests the sacrifice ratio, the amount of production that has to be
+forgone to lower inflation by 1 percentage point, has a rather painful
+value of 5.
+
+This is not to say all inflation is evil: a low value of 2-3% is
+generally accepted as being beneficial for the economy, since it
+exerts pressure on real wages and thus allows gradual reallocation of
+workers to sectors with higher productivity. It also gives the central
+banks freedom to lower real rates below 0%. Too high inflation
+however, is considered harmful; it puts in jeopardy price stability (a
+stated objective for the Bank of Canada). Again, while no-one can
+predict what inflation level separates inflation from 'high, but ok'
+from truly harmful, but expectations and precedent play an important
+role: even concerns about /possibility/ of future inflation are enough
+to panic investors and amplify uncertainty in the financial markets,
+which can spill over to the real economy[fn::"Real Time Economics:
+Inflation Worries Rattle Markets" WSJ 5 February 2018].
+
+The naiive approach to NAIRU as a single Philipps curve which
+constrains the inflation-unemployment tradeoff in the 1960s is widely
+blamed for setting the stage for the double-digit inflation in the UK,
+US, and Canada in the late 1970s: the lower unemployment rate was
+bought at the expence of a higher inflation, which was pushed even
+higher by the adverse supply shock of high oil prices. Once inflation
+was perceived as too high, the regulators were under political
+pressure to tighten monetary policy, incurring all the costs of high
+unemployment rate while not achieving a return to 3% inflation until
+the OPEC embargo was lifted in mid-1980s.
+
+For the above reasons, most central banks now pursue inflation
+targeting policy, aiming, in the case of Bank of Canada, for the 2% as
+the mid-point of the 1%-3% inflation-control range[fn::Joint Statement
+of the Government of Canada and the Bank of Canada on the Renewal of
+the Inflation-Control Target, October 24, 1996]. If we suppose the
+Bank of Canada underestimates the natural unemployment rate, it would
+find it difficult to maintain its inflation target: the regulator
+would be setting interest rate that is too low, causing wages and
+prices to rise.
+
+Of course we should ask ourselves the question how could the central
+bank misjudge the NAIRU. By definition, it is the unemployment rate
+which does not increase inflation, and is therefore an interpolated
+metric. The lags in data reporting mean that NAIRU is not known at the
+time, and the supply-shock term means that even in hindsight it may
+not be possible to disentangle what NAIRU was[fn::Staiger et al, "How
+Precise Are Estimates of the Natural Rate of Unemployment?"]. In
+recent history, late 1990s were an unusually prosperous time in the
+US, with both inflation and unemployment low by historical
+standards. The explanation offered[fn::L Meyer, "A Term at the Fed"]
+was a higher growth in productivity, which acted as a positive supply
+shock, compounded by low prices of the imported goods due to
+globalization - another positive supply shock. Similarly, in the even
+more recent history, the oil price collapse of the 2014 can be viewed
+as adverse supply shock which drastically lowered productivity in one
+of Canada's core industries.
+
+In conclusion, the NAIRU theory predicts that underestimating the
+natural level of unemployment could cause the central bank to choose a
+monetary policy that is too lax and ``cause the economy to overheat",
+starting an inflation cycle that will not have lasting effects on
+employment once the monetary stimulus is withdrawn.
+*** Diagrams
+      #+BEGIN_SRC latex :file tmp/inflation_ratcheting.pdf :packages '(("" "tikz")) :results raw
+        \usetikzlibrary{decorations.pathreplacing}
+        \begin{tikzpicture}[
+            scale=5,
+            axis/.style={very thick, ->, >=stealth'},
+            important line/.style={thick},
+            dashed line/.style={dashed, thin},
+            pile/.style={thick, ->, >=stealth', shorten <=2pt, shorten
+            >=2pt},
+            every node/.style={color=black}
+            ]
+            % axes
+            \draw[axis] (-0.1,0)  -- (1.1,0) node(xline)[right]
+                {$I,S$};
+            \draw[axis] (0,-0.1) -- (0,1.1) node(yline)[above] {$r$};
+            % Lines
+            \draw[important line] (.75,0.0) coordinate (A)
+                               -- (.75,.85) coordinate (B)
+                  node[centre, text width=8em] {$S=Y-(C+G)$};
+            \draw[important line] (.05,.85) coordinate (C)
+                               -- (.95,.05) coordinate (D)
+                  node[right, text width=5em] {$I(r)$};
+            \draw[dashed line]     (0,.6)   coordinate (E)
+                                -- (1.,0.6) coordinate (F)
+                  node[above, text width=5em] {$r^*$};
+            % Intersection of lines
+            \fill[red] (intersection cs:
+               first line={(A) -- (B)},
+               second line={(C) -- (D)}) coordinate (G) circle (.4pt)
+               node[right,] {$r_{\rm closed}$};
+            \fill[blue] (intersection cs:
+               first line={(E) -- (F)},
+               second line={(C) -- (D)}) coordinate (K) circle (0.3pt)
+               node[above,] {$I(r^*)$};
+            \fill[blue] (intersection cs:
+               first line={(E) -- (F)},
+               second line={(A) -- (B)}) coordinate (L) circle (0.3pt)
+               node[below,] {$$};
+            \draw [decorate, decoration={brace}, yshift=4ex] (K) --  node [above,] {NX} (L);
+        \end{tikzpicture}
+      #+END_SRC
+
+      #+RESULTS:
+      [[file:tmp/inflation_ratcheting.pdf]]
+
