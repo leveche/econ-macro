@@ -1509,3 +1509,223 @@ employment once the monetary stimulus is withdrawn.
       #+RESULTS:
       [[file:tmp/inflation_ratcheting.pdf]]
 
+** Effects of Fiscal and Monetary Policies
+#+LaTeX_CLASS: article
+#+LaTeX_CLASS_OPTIONS: [article,letterpaper,times,11pt,margin=0.7in]
+#+LATEX_HEADER: \usepackage[margin=0.3in]{geometry}
+- Explain whether or how likely an economy will experience crowding
+  out if the government runs a budget deficit. (Hint: “Austerity is
+  pain. So is tight money,” Economists January 19, 2012)
+- TL;DR: Increased government spending - indeed, any kind of
+  expansionary fiscal policy - would cause pressure to crowd out,
+  respectively, private investment in the case of a closed economy,
+  and net exports, in the case of (small) open economy. Whether these
+  pressures are realized as contraction in the corresponding sector
+  depends on the coordination of the fiscal and monetary policies:
+  expansionary monetary policy aimed at maintaining the money supply
+  would alleviate the crowding-out effect and shift the
+  aggregate-demand (AD herafter) curve to the right, both in closed
+  and - to even greater extent - in an open economy. Standard Keynsian
+  theory prescribes furthermore that, in times of recession,
+  government spending, by supporting the aggregate demand, could well
+  `crowd-in' additional private spending, particularly if coordinated
+  with the monetary policy.
+- Let us first lay down the context for our exposition: we will
+  primarily focus on a situation where the domestic product has fallen
+  below its `natural' or potential level due to lack of aggregate
+  demand. This is a typical feature of a liquidity crisis; the real
+  economy pays for the sins of the financial sector because lack of
+  confidence leads to a fall in the money multiplier, which means
+  lower money supply, hence higher interest rates, hence lower
+  investment and therefore lower GDP. We should also stress that the
+  human cost of fall in the output, for developed coutries, is
+  primarily the rise in unemployment. If we express the functional
+  dependency between the actual and potential output, on the one hand,
+  and unemployment above the natural rate, as
+  $\frac{Y-\bar{Y}}{\bar{Y}} = c (u-\bar{u})$[fn::note that this `gap
+  form of Okun's Law' is not in itself particularly profound: an
+  engineer may recognize it as first-order Taylor expanion of any
+  functional dependency between $\Delta Y$ and $\Delta u$], the
+  empirical evidence points to value of $c=2.5$[fn::Mankiw et
+  al. "Macroeconomics", p.433]. In the words of Paul
+  Krugman,[fn::Krugman, "The Accidental Theorist and Other Dispatches
+  from the Dismal Science"] an unsold commodity is a nuisance, an
+  unemployed worker a tragedy, so the governments understandably want
+  to prop up aggregate demand when markets fail. The difference
+  between classical and Keynsian models of economic rebound after a
+  liquidity crisis is the speed with which prices and wages adapt to
+  the reduced aggregate demand: Keynsians view prices as `sticky' in
+  the short run, while the `freshwater' school of thought insists that
+  markets should be able to adapt quickly, thus restoring the
+  production output to pre-crisis levels without intervention - and
+  any prolonged recessions must therefore have other underlying
+  causes - for example, in the `monetarism' flavour, disbalance in the
+  money supply. But regardless of whether they should or not, the
+  govenments have two principal instruments to influence the economy:
+  one is fiscal, the decision on what and how much to tax, and how
+  much and where to spend the tax revenue, and the other is monetary,
+  the decision to grow or contract the money supply.
+- A budget deficit comes about if the government spending exceeds the
+  taxes it collects. Whether the deficit arises by dint of spending
+  more (most commonly, investment in infrastructure) or via tax breaks
+  may well have a difference on the overall magnitude of boosting AD -
+  depending on how government spending multiplier compares with that
+  of the private sector, but the crowding-out effect is a primarily a
+  monetary phenomenon, the root of which lies in the increased demand
+  for liquidity, which, in the first instance, drives up the interest
+  rate. In the case of an open economy with perfect capital mobility,
+  the interest rate must equalize with the world prevailing rate,
+  which is effected by appreciation of the dollar[fn::For brevity, we
+  use 'dollar' as generic name of the local currency, and `Canada' for
+  the home country.], which in turn crowds-out net exports by making
+  the local production more expensive (and foreign cheaper), when
+  calculated in foreign currency.  When the government enters the
+  market to buy goods and services, it also enters the market for
+  loanable funds, increasing the demand for money. The theory of
+  liquidity preference predicts that the interest rate, which we could
+  view as the price of tomorrow's money today, also increases. This
+  makes borrowing money for building capital projects more costly, and
+  hence hampers private investment. In effect, the government is
+  daring to spend when and where private enterprise wouldn't --- with
+  the concomitant risk that the expenditure would be worth it.
+- The so-called 'treasury position', made infamous by the Winston
+  Churchhill's budget speech of 1929[fn::Churchill, by his own
+  admission, made a particularly poor Chancellor of the
+  Exchequer][fn::The Economist August 11, 2016, "Where does the buck
+  stop?"] is that private sector knows better than the government
+  where capital investment is needed most, thus any stimulus package
+  should favour tax cuts over spending. An even more extreme view is
+  that the crowding-out of private investment balances the boost
+  provided by the stimulus, making government intervention useless at
+  best. A more extreme viewpoint still is that the rational
+  expectations of the investors cancel out fiscal policy completely:
+  the Ricardian equivalence principle of 'tax now or tax later' posits
+  that since government debt has to be repaid eventually by increased
+  tax revenue, rational firms and households would be indifferent
+  between government deficit spending or higher taxes, proactively
+  increasing savings in the former case.  The premise of the first
+  assumption seems dubious to this author: government *can* be better
+  at managing common goods[fn::they don't call it *tradegy* of the
+  commons for nothing] like roads and fisheries, and many natural
+  monopolies are best operated as public utilties. Why the
+  crowding-out should balance or exceed the additional spending is not
+  clear, even less clear is that the private sector would be prepared
+  to spend *when* AD boost is needed most. Moreover, a boost in any
+  spending, private or government, is enhanced by the so-called
+  spending multiplier: just like in the fractional lending, a dollar
+  in circulation is more than a dollar under the matress. In practical
+  terms, a fraction of every dollar spent is being spent again by the
+  entity who received it. Because the government has discretion on
+  what to buy that is not dictated by the need to make profit, it can
+  target spending in labor-intensive, low-productivity areas to make
+  sure the money is converted to wages immediately, preferably for the
+  lower-income workforce who would perforce spend most of it. If their
+  marginal propensity to spend $\mu$ is large, the spending multiplier
+  $\sum_{k=0}^\infty\mu^k = \frac{1}{1-\mu}$ is also large. Building
+  roads and canals is looking better by the minute.
+- If the economy is open, a higher interest rate cannot persist for
+  long; it would have to equalize with the world prevailing rate. The
+  mechanism by which this occurs is international market for goods and
+  capital: foreign investors would be enticed to buy Canadian capital
+  assets since they have a higher return than elsewhere. To buy said
+  assets, they would first need to exchange their currency for the
+  dollar, driving up the real exchange rate. Dollar-denominated
+  exports would become more expensive and therefore less competitive;
+  the exports are now being crowded out, and the fiscal policy does
+  not appreciably change the aggregate demand.
+- If the central bank coordinates monetary policy to expand the money
+  supply at the same time as the government is increasing demand for
+  loanable funds, the two pressures could balance each other so that
+  the interest rate stays constant and no crowding out takes place.
+- Moreover, in the 'neo-Keynsian' school, monetary policy is central
+  and the central banks are the primary line of defence to stabilize
+  the aggregate demand. Recognizing the argument that the market
+  forces are, in general, best at maximizing welfare, the
+  recommendation of the `saltwater' school is to try to replicate
+  allocation of resources that emulates the situation where the prices
+  _are_ flexible - by increasing the money supply and thus lowering
+  the _real_ prices, even when they are sticky nominally. As a passing
+  remark, exactly inability to increase money supply made Churchill's
+  `treasury position' argument for his budget valid - but no less
+  disastrous in achieving growth. He himself had put Britain on the
+  gold standard in 1925, removing monetary policy as an option. For as
+  long as the interest rate is above the lower bound of zero, monetary
+  policy is to be tried first. In agreement with the classical theory,
+  government spending should be set such that its marginal utility
+  matches the marginal utility of private consumption[fn::Mankiw and
+  Weinzierl 2011, An Exploration of Otimal Stabilization Policy]. Even
+  once the lower bound of zero (`liquidity trap') is reached --- as it
+  has been in the aftermath of the Great Recession of late 2000's,
+  and, in Japan, since 1990's --- Mankiw and Weinzierl's model
+  prescribes commitment to future expansionary monetary policy as the
+  optimal response. Again, in agreement with the classical models, the
+  fiscal policy is not to be used as a stabilization tool. Only when
+  the commitment to a long-term expansionary policy is impossible ---
+  and we'll discuss below why that may be so --- will Keynsian
+  response become necessary.
+- Unfortunately, the expansionary policies, continued to an extreme,
+  would lead us to conclude that the 'Zimbabwe solution' of
+  nationalizing industries and runaway printing of money is a viable
+  way to sustain a high GDP. Of course the principle of monetary
+  neutrality explicitly states that monetary policy has no effect on
+  the GDP in the long term, while the government purchases, even if
+  they can reproduce the same level of output short-term, cannot
+  achieve the same *distribution* of production as the private sector,
+  and hence could well impede long-term growth. If the expansionary
+  monetary policy is not retracted in time, the inflationary price
+  growth becomes expected, which neuteres the stimulus effect and sets
+  up the stage for a painful disinflation in the future: if prices are
+  expected to grow by 10% each year, the firms and workers will raise
+  them in anticipation of this increase, and an expansion of the money
+  supply by, say, 7% would have the same effect as contraction by
+  3%. The central bank may be sorely tempted to print money even if it
+  had committed itself previously to stop inflation. Similarly, a
+  fiscal commitment to return to `small government' has to be credible
+  to have crisis-fighting powers.
+- So far, we have dealt with theories, which have to validated against
+  empirical evidence. Unfortunately, empirical evidence is only
+  available for the economic variables as they are[fn::more often, as
+  they *were*] rather than for how they *could have been*, had
+  alternative stabilization policy been chosen. The measure chosen to
+  benchmark effect of a fiscal stimulus is the good ol' spending
+  multiplier, a type of 'bang-for-buck' metric. Ironically, this
+  Keynsian construct is most enthusiastically brandished by
+  anti-Keynsians. Aside from wildly differing estimates[fn::just
+  varying the time horizon for the autocorrelation model gives one
+  enormous scope to confirm one's preferred theory] on the government
+  multiplier obtained by various researchers, varying from negative to
+  1.5[fn::Veldhuis et al, National Post 30 March 2010,
+  "Harpernomics;..."], the multiplier completely ignores that even if
+  a dollar spent by the government only increases the GDP by 50 cents,
+  a dollar *not* spent by the government at the right time would have
+  lowered the GDP by $1.50, which is what IMF seems to think of the
+  austerity in the Eurozone[fn::Guajardo et al, IMF Working Paper
+  2011, "Expansionary Austerity New International Evidence"]. An
+  expansionary fiscal policy is the policy of last resort to be sure,
+  and one that democratic governments may be loathe to undertake, but
+  it may be the only way to recover from low aggregate demand caused
+  by cash hoarding and deleveraging by the private sector, when the
+  normally sound practice of thrift is hurting recovery by fallacy of
+  composition[fn::Richard Koo, Centre for Economic Policy Research
+  Policy Portal, 11 August 2014, Balance sheet recession is the reason
+  for ‘secular stagnation'].
+- In conclusion, there is a pressure for interest rates to increase if
+  the government is running a deficit. The pressure comes from
+  increased demand on the money supply. In a closed economy, the
+  increased interest rate has the tendency to stifle private
+  investment by making capital projects more expensive. In the
+  presence of international trade and mobility of capital, the
+  interest rate will equalize with the world prevailing rate by making
+  the dollar more expensive, local production less competitive, and
+  hence lowering net exports. The crowding-out of private investments
+  or net exports counteracts the intended increase in the aggregate
+  demand. Monetary policy however has the power to stop the
+  crowding-out effect by expanding the money supply and preventing the
+  exchange rate from rising, provided it is coordinated with the
+  fiscal policy. An example of failure to coordinate government
+  spending and monetary policy is Coney Crisis in the 1960's. In both
+  neoclassical and neo-Keynsian models, monetary policy is the
+  preferred option to deal with flagging aggregate demand in the short
+  term, with the fiscal policy being a last resort when the central
+  bank find itself in a liquidity trap of having reached zero lower
+  bound for its interest rate.
