@@ -1729,3 +1729,153 @@ employment once the monetary stimulus is withdrawn.
   term, with the fiscal policy being a last resort when the central
   bank find itself in a liquidity trap of having reached zero lower
   bound for its interest rate.
+* ECON 208 essay
+:LOGBOOK:
+- Note taken on [2018-07-19 Thu 14:48] \\
+  Topics:
+  - The future of the Canadian economy.
+  - The three biggest challenges facing the Canadian economy.
+  - The benefits and costs of the oil industry in the Alberta economy.
+  - The effects of the influx of immigrants on the Canadian economy.
+  - The best decisions are made at the margin. True or False.
+  - Is pollution a failure of the market?
+  - Do minimum wages help low-income workers?
+:END:
+** Are the Best Decisions Made at the Margin?
+Let's consider an economy in which $10 is available for investment,
+and the investment prospects have the following costs and returns:
+| prospect | cost, $ | return, $ | return/cost    |
+|----------+---------+-----------+----------------|
+|        1 |       2 |         9 | $4\frac{1}{2}$ |
+|        2 |       3 |        14 | $4\frac{2}{3}$ |
+|        3 |       4 |        16 | $4$            |
+|        4 |       6 |        30 | $5$            |
+
+Suppose, for the moment, that we have a command economy, there is no
+open market to allocate ressources. Instead, our task as a benevolent
+dictator is to choose return-maximizing portfolio of investments,
+while staying within the budget contraint. Importantly, a project
+cannot be scaled down - pursuing it or not is an all-or-nothing
+affair.[fn::Many models in economics, particularly at the macro level,
+deal with quantities that are nearly infinitely divisible: with a
+billion cars on the road in the world today, the fact that cars come
+in integer quantities is immaterial. However, even for a nation-state
+some undertakings come in discrete units: laying of capital ships,
+launching sattelites, or high-speed rail links are some
+examples. Projects on the scale of the Suez canal or the moonlanding
+cannot yet be approximated by a continuous variable even globally]
+
+With a 'marginalized' or /greedy/ approach, we would calculate 'bang
+for buck' of each prospect, and fill the budget with the most
+profitable prospects first. With repetition allowed (if a project can
+be undertaken more than once), the solution we would obtain is this
+way is projects #4 and #2, leaving $1 of budget unused, and returning
+$30+$14=$44.
+
+It is easy to see that projects #5 and #4 use the entire budget, and
+return the total of $46. With repetitions allowed, we can do even
+better: two counts of project #1 return the total of $18, so together
+with project #6 we can achieve the total of $48.
+
+The suboptimal greedy solution is *the solution that an open market
+would achieve*, as long as each project is independent and no other
+mechanism is available to solve the coordination problem.  Even if
+someone decides to set up a synthetic project consisting of the
+winning combination of the basic prospects, that would have the total
+profitability of $\times 4.6$ (or $\times 4.8$, if repetitions
+allowed). While better than any prospect other than #4, the market
+would already choose #4, so the synthetic project would be no
+different than #3[fn::or twice #1, with repetitions] by itself, which
+looses to #2. Without arbitrage, there is nothing to force the optimal
+solution on the macro scale.
+
+If this example vindicates command economy, then only just: we took
+the prices and returns as given. The 'killer feature' of an open
+market is that it establishes relative prices efficiently. How would a
+command economy do that?
+
+/Linear programming/ is a standard approach: if there are $m$ factors
+of production, the process of producing each of the $n$ goods the
+economy is capable of is encoded as a linear combination of
+inputs. For example, if the inputs are land and labor (in that order),
+and the outputs are wheat and potatoes, then we can write
+$$\left(\begin{matrix} 1 & 2 \\ 3 & 4 \end{matrix}\right)$$ to
+indicate that, in order to produce one unit of wheat, one unit of
+labor and two units of land are needed. Similarly, /activity vector/
+$a_2$ for potatoes is $[3,4]$. If we wish to produce $x_1$ amount of
+wheat and $x_2$ of potatoes, we would need to supply $x_1 (1,2)^T +
+x_2 (3,4)^T = (x_1+3x_2,2x_1+4x_2)^T$, where the first component
+represents the labor and the second the land requirement. As usual,
+the resources are finite, and in general we have to maximize the
+linear 'utility' function $\sum_i c_i x_i$, subject to constraints
+$$\sum_j a_{ij} x_j \leq b_i \ 0\leq x_i \leq b_i$$ In our
+wheat-and-potatoes example, we take that each unit of output of
+e.g. wheat will bring $c_1$ worth of utility, and the limit on labour
+is $b_1$. Unlike the classical production function, not every
+combination of the input factors is possible, because the number of
+possible ways to produce each good is finite (and is explicitly
+enumerated in the /activity matrix/ above).
+
+This model can be applied for managing production of a single firm
+capable of producing multiple goods, in which case the coefficients
+$c_i$ are simply prices[fn::we assume the firm a price taker,
+operating under perfect competition], but also can describe the
+economy as a whole, in which case the coefficients $c_i$ represent
+some social value of the goods produced.
+
+Having formulated the model as a linear programming problem, we can
+take advantage of the general theory of LP, in particular the
+remarkable fact that every LP maximization problem has a /dual/
+minimization problem, which has the same solutions. The coefficients
+of the dual problem have a natural interpretation as prices: in the
+case of a firm, they would be treated as 'shadow' prices of the
+resources, representing the profit the corresponding input factor can
+contribute under the optimal production plan. In case of command
+economy, the imputed prices are the prices a central planner would
+assign since the open market mechanism is not available.
+
+Let us consider an example linear program: maximize $x_1+6x_2$, with
+constraints $$0 \leq x_1 \leq 200,\ 0\leq x_2 \leq 300, \ x_1+x_2 \leq
+400$$  Adding the first inequality to the 6 times the second, we get
+$x_1+6x_2 \leq 2000$, so the optimal solution is at
+most 2000. Multiplying the second inequality by 5 and adding the third
+gives an even better bound: $x_1 + 6x_2 \leq 1900$. In fact, it is
+easy to verify that 1900 is indeed the solution to this problem. The
+combination 0 times the first inequality, 5 times the second and 1
+times the third is the solution to the dual problem: what combination
+of multipliers for the original bounds produce the tightest upper
+bound on the function to be maximized.
+
+Now that we know how to assign prices to inputs in a command economy,
+let's see if a decentralized decision making can still take place: can
+ministers responsible for individual industries (which not only
+compete for individual input factors but also can share production
+facilities) make production decisions that combine to an optimal
+allocation overall?
+
+Well, if the imputed prices are calculated and promulgated, an
+individual minister can calculate the cost of each good in his
+portfolio, and compare to the final price $c_i$ for that
+good[fn::again, this is either the 'social utility', or, in the case
+of a firm under competition, the market price of the good]. In this
+fashion, the losing production activities can be eliminated. The
+problem now is that all the remaining activities will have price of
+the good, as calculated on the basis of the shadow prices of the
+factors exactly equal to the end price --- otherwise the shadow prices
+are incorrect and should be higher[fn::Recall that the shadow prices
+are constructed by reference to the most efficient processes producing
+together the most valuable set of outputs]. So there is no mechanism
+to coordinate the level of production of the goods that should be
+produced, other than in the global context.  The maximization
+principle globally to simply make sure all available inputs are
+consumed, in the activities that are economical in the above sense.
+
+There is of course another twist: if we again assume that only integer
+amounts of inputs are possible, the LP problem now becomes an integer
+programming problem, the solution to which can lie far away from the
+LP optimum.
+
+In summary, we considered some rather esoteric but hopefully not too
+contrived examples in which optimizing utility requires coordination
+on a larger scale and cannot be achieved by the 'local' consideration
+of marginal gains.
